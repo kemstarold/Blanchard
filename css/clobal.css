@@ -1,0 +1,26 @@
+:root {
+  --color-FFF: #fff;
+  --color-000: #000; /*шапка и футер фон*/
+  --color-333: #333; /*текст*/
+  --color-9d5: #9d5cd0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-FFF);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+  padding-left: calc(50px + (160 - 50) * ((100vw - 1024px) / (1920 - 1024)));
+  padding-right: calc(50px + (160 - 50) * ((100vw - 1024px) / (1920 - 1024)));
+}
+
+img {
+  max-width: 100%;
+}

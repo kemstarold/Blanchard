@@ -1,0 +1,23 @@
+.about__container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about__text {
+  max-width: 1080px;
+}
+
+.about__title {
+  padding-bottom: 16px;
+  font-size: 48px;
+  line-height: 65.37px;
+  font-weight: 400;
+  color: #333333;
+}
+
+.about__descr {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--color-333);
+}
