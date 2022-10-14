@@ -16,7 +16,7 @@ let heroSwiper = new Swiper ('.hero-swiper', {
   speed: 5000,
 });
 
-let galeiSwiper = new Swiper ('.galleri-swiper', {
+let galeiSwiper = new Swiper ('.galleri-swiper-container', {
   direction: 'horizontal',
   slidesPerView: 3,
   slidesPerColumnFill: 'row',

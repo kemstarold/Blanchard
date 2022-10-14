@@ -256,48 +256,49 @@
       </div>
     </section>
     <section class="galleri">
-      <div class="container galleri__container">
+      <div class="galleri__container container">
         <div class="galleri__left">
           <h2 class="galleri__title">
             Галерея
           </h2>
-        </div>
-        <div class="galleri__right swiper-container">
-          <div class="galleri-button">
-            <div class="galleri-button__prev swiper-button-prev swiper-button-gray">
-              <svg class="swiper-button-gray__svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path class="swiper-button-gray__background"
-                  d="M15 0.999999C7.26801 0.999999 1 7.26801 1 15C1 22.732 7.26801 29 15 29C22.732 29 29 22.732 29 15C29 7.26801 22.732 0.999998 15 0.999999Z"
-                  fill="#666666" stroke="#666666" stroke-width="2" />
-                <path class="swiper-button-gray__triangle" d="M16 10L11 15L16 20" stroke="white" />
-              </svg>
-            </div>
-            <div class="swiper-pagination galleri-button__pagination"></div>
-            <div class="galleri-button__next swiper-button-next swiper-button-gray">
-              <svg class="swiper-button-gray__svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path class="swiper-button-gray__background"
-                  d="M15 29C22.732 29 29 22.732 29 15C29 7.26801 22.732 0.999999 15 0.999999C7.26801 1 1 7.26801 1 15C1 22.732 7.26801 29 15 29Z"
-                  fill="#666666" stroke="#666666" stroke-width="2" />
-                <path class="swiper-button-gray__triangle" d="M14 20L19 15L14 10" stroke="white" />
-              </svg>
-            </div>
+          <div class="galleri__left-select">
+            <legend class="galleri-legent">
+              Фильтр
+            </legend>
+            <select name="select" id="selectCustoms">
+              <option value="" tabindex="0">Живопись</option>
+              <option value="">Графика</option>
+              <option value="">Фотография</option>
+            </select>
           </div>
-          <div class="galleri__swiper galleri-swiper">
-            <div class="swiper-wrapper galleri-swiper__wrapper">
-              <div class="swiper-slide galleri-swiper__slide"></div>
-              <div class="swiper-slide galleri-swiper__slide"></div>
-              <div class="swiper-slide galleri-swiper__slide"></div>
-              <div class="swiper-slide galleri-swiper__slide"></div>
-              <div class="swiper-slide galleri-swiper__slide"></div>
-              <div class="swiper-slide galleri-swiper__slide"></div>
+        </div>
+        <div class="galleri__right">
+          <div class="galleri-swiper-container swiper-container">
+            <div class="galleri__swiper-wrapper swiper-wrapper">
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_1.jpg" alt="" class="galleri-slide__img">
+              </div>
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_2.jpg" alt="" class="galleri-slide__img">
+              </div>
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_3.jpg" alt="" class="galleri-slide__img">
+              </div>
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_4.jpg" alt="" class="galleri-slide__img">
+              </div>
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_5.jpg" alt="" class="galleri-slide__img">
+              </div>
+              <div class="galleri__swiper-slide swiper-slide">
+                <img src="/img/galleri_6.jpg" alt="" class="galleri-slide__img">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-  </main>
+    </main>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="/js/focus-visible.js"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
