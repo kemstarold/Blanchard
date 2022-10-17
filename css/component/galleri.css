@@ -1,4 +1,6 @@
 .galleri {
+  max-width: 1920px;
+  margin: 0 auto;
   background-image: url(/img/galleri_bg.webp), url(/img/galleri_bg.jpg);
   background-position: center;
   background-repeat: no-repeat;

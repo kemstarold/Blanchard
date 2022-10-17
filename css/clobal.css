@@ -2,7 +2,9 @@
   --color-FFF: #fff;
   --color-000: #000; /*шапка и футер фон*/
   --color-333: #333; /*текст*/
-  --color-9d5: #9d5cd0;
+  --color-C28: #C283F3; /*focus */
+  --color-9d5: #9d5cd0; /*hover */
+  --color-794: #7943A4; /*active */
 }
 
 html {

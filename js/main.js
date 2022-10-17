@@ -13,7 +13,7 @@ let heroSwiper = new Swiper ('.hero-swiper', {
   autoplay: {
     delay: 3000,
   },
-  speed: 5000,
+  speed: 2500,
 });
 
 let galeiSwiper = new Swiper ('.galleri-swiper-container', {
