@@ -1,0 +1,20 @@
+.catalog__descr {
+  padding-bottom: 50px;
+}
+.catalog__title {
+  padding-bottom: 16px;
+  font-size: 48px;
+  line-height: 65.37px;
+  font-weight: 400;
+  color: var(--color-333);
+}
+
+.catalog__text {
+  max-width: 1090px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: -0.1px;
+  color: var(--color-333);
+}

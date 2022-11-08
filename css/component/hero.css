@@ -66,3 +66,14 @@
   color: var(--color-FFF);
   background-color: var(--color-9d5);
 }
+
+/*dropdown*/
+
+.dropdown__link-bg1 {
+  background-image: url(/img/verrokko.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  object-position: center;
+  object-fit: cover;
+}
